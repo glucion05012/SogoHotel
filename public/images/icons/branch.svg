@@ -1,0 +1,35 @@
+<svg id="Group_4" data-name="Group 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 161.569 161.569">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafb01;
+      }
+
+      .cls-2 {
+        fill: #cf0405;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="80.785" cy="80.785" r="80.785" transform="translate(0)"/>
+  <g id="XMLID_22_" transform="translate(38.2 41.008)">
+    <g id="XMLID_24_">
+      <g id="XMLID_26_">
+        <path id="XMLID_36_" class="cls-2" d="M70.69,78.4H5.084A5.049,5.049,0,0,1,0,73.313V26.284A5.049,5.049,0,0,1,5.084,21.2H70.69a5.049,5.049,0,0,1,5.084,5.084V73.411A5.158,5.158,0,0,1,70.69,78.4ZM5.084,25.4a.876.876,0,0,0-.88.88V73.411a.876.876,0,0,0,.88.88H70.69a.876.876,0,0,0,.88-.88V26.284a.876.876,0,0,0-.88-.88Z" transform="translate(0 -0.472)"/>
+        <path id="XMLID_33_" class="cls-2" d="M55.556,24.15H22.8a4.34,4.34,0,0,1-4.3-4.3V4.3A4.34,4.34,0,0,1,22.8,0H55.556a4.34,4.34,0,0,1,4.3,4.3V19.848A4.34,4.34,0,0,1,55.556,24.15ZM22.8,3.911a.421.421,0,0,0-.391.391V19.848a.421.421,0,0,0,.391.391H55.556a.421.421,0,0,0,.391-.391V4.3a.421.421,0,0,0-.391-.391Z" transform="translate(-0.412)"/>
+        <path id="XMLID_32_" class="cls-2" d="M54.439,77.915H52.092V69.6a1.753,1.753,0,0,0-1.76-1.76H25.2a1.753,1.753,0,0,0-1.76,1.76v8.311H21V69.6a4.173,4.173,0,0,1,4.2-4.2h25.03a4.173,4.173,0,0,1,4.2,4.2Z" transform="translate(-0.467 -1.456)"/>
+        <path id="XMLID_31_" class="cls-2" d="M30.755,17.2A1.961,1.961,0,0,1,28.8,15.246V10.455a1.955,1.955,0,0,1,3.911,0v4.791A1.961,1.961,0,0,1,30.755,17.2Z" transform="translate(-0.641 -0.189)"/>
+        <path id="XMLID_30_" class="cls-2" d="M39.255,17.2A1.961,1.961,0,0,1,37.3,15.246V10.455a1.955,1.955,0,0,1,3.911,0v4.791A1.961,1.961,0,0,1,39.255,17.2Z" transform="translate(-0.83 -0.189)"/>
+        <path id="XMLID_29_" class="cls-2" d="M47.855,17.2A1.961,1.961,0,0,1,45.9,15.246V10.455a1.955,1.955,0,0,1,3.911,0v4.791A1.961,1.961,0,0,1,47.855,17.2Z" transform="translate(-1.022 -0.189)"/>
+        <rect id="XMLID_28_" class="cls-2" width="72.157" height="3.911" transform="translate(2.053 34.612)"/>
+        <rect id="XMLID_27_" class="cls-2" width="72.157" height="3.911" transform="translate(2.053 47.714)"/>
+      </g>
+      <rect id="XMLID_25_" class="cls-2" width="2.347" height="11.928" transform="translate(35.492 65.117)"/>
+    </g>
+  </g>
+  <rect id="XMLID_21_" class="cls-2" width="3.227" height="13.884" transform="translate(48.858 77.38)"/>
+  <rect id="XMLID_20_" class="cls-2" width="3.227" height="13.884" transform="translate(58.44 77.38)"/>
+  <rect id="XMLID_19_" class="cls-2" width="3.227" height="13.884" transform="translate(68.021 77.38)"/>
+  <rect id="XMLID_18_" class="cls-2" width="3.227" height="13.884" transform="translate(77.603 77.38)"/>
+  <rect id="XMLID_17_" class="cls-2" width="3.227" height="13.884" transform="translate(87.185 77.38)"/>
+  <rect id="XMLID_16_" class="cls-2" width="3.227" height="13.884" transform="translate(96.865 77.38)"/>
+</svg>

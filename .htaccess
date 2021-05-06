@@ -1,0 +1,14 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^hotelsogo.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.hotelsogo.com$
+RewriteCond %{REQUEST_URI} !sogo20191106/public/
+RewriteRule (.*) /sogo20191106/public/$1 [L]
+RewriteBase /home/predptouw3zm/public_html/sogo20191106/public
+
+# Redirects HTTP to HTTPS
+
+<ifModule mod_rewrite.c>
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://hotelsogo.com/$1 [R,L]
+</IfModule>

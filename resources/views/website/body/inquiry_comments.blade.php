@@ -1,0 +1,65 @@
+@extends('website.master')
+@section('body')
+
+	<div class="header pt-header">
+		<img src="{{ asset('images/'.$page->directory.'/'.$page->filename) }}" width="100%" alt="{{ $page->alt }}">
+		<div class="title">
+			<h1 class="text-center">{{ $page->page_title }}</h1>
+		</div>
+		<div class="scroll-down text-center">
+			<a href="#" class="btn-scroll">
+				<p class="text wow fadeInDown">Scroll Down</p>
+				<div class="icon wow fadeInUp" data-wow-delay=".5s">
+					<span class="faa-bounce animated"><i class="fas fa-angle-down"></i></span>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<section class="careers bg-default scrolly">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-md-10 mx-md-auto">
+					<h4 class="title text-center mb-4">MESSAGE US</h4>
+					<form id="frmContact">
+						<div class="ajax-msg">
+                            <div id="msg"></div>
+                        </div>
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+						<div class="form-group probootstrap-animate" data-animate-effect="fadeInDown">
+							<select name="type" class="form-control" required>
+								<option value="" selected disabled>Type of Inquiry</option>
+								<option value="comment">Comment</option>
+								<option value="suggestion">Suggestion</option>
+							</select>
+						</div>
+						<div class="row">
+							<div class="col-md-4 probootstrap-animate" data-animate-effect="fadeInLeft">
+								<div class="form-group">
+									<input type="text" name="name" class="form-control" placeholder="Name">
+								</div>
+							</div>
+							<div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
+								<div class="form-group">
+									<input type="text" name="email" class="form-control" placeholder="Email">
+								</div>
+							</div>
+							<div class="col-md-4 probootstrap-animate" data-animate-effect="fadeInRight">
+								<div class="form-group">
+									<input type="text" name="number" class="form-control" placeholder="Number">
+								</div>
+							</div>
+						</div>
+						<div class="form-group probootstrap-animate">
+							<textarea name="message" rows="10" class="form-control" placeholder="Message"></textarea>
+						</div>
+						<div class="text-center probootstrap-animate">
+							<button class="btn btn-warning">SUBMIT</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+@endsection
