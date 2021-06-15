@@ -481,7 +481,8 @@ a {
 }
 
 .home-about-us .rounded-circle {
-  background: #fdfc14;
+  /* background: #fdfc14; */
+  background:transparent;
   height: 150px;
   width: 150px;
 }
@@ -546,7 +547,8 @@ a {
 }
 
 .facebook img {
-  min-height: 574px;
+  /* min-height: 574px; */
+  min-height: 550px;
 }
 
 @media (max-width: 991px) {

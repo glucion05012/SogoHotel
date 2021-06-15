@@ -22,6 +22,8 @@ Route::get('/','HomeController@index');
 Route::get('/about-us','HomeController@about_us');
 Route::get('/about-us/{pages}','HomeController@about_us');
 
+Route::get('/virtual-tour','HomeController@virtual_tour');
+
 Route::get('/branches','HomeController@branches');
 Route::get('/branches/{pages}','HomeController@branches');
 

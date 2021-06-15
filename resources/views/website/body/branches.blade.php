@@ -31,8 +31,13 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th width="40%">Branch</th>
+								<!-- <th width="40%">Branch</th>
 								<th width="25%"></th>
+								<th width="30%">Telephone No.</th>
+								<th width="5%"></th> -->
+								<th width="30%">Branch</th>
+								<th  width="25%"></th>
+								<th  width="10%"></th>
 								<th width="30%">Telephone No.</th>
 								<th width="5%"></th>
 							</tr>
@@ -42,6 +47,7 @@
 							@if($row->region_id == 16)
 							<tr>
 								<td><a href="{{ url('/branches/'.$row->url) }}">{{ $row->name }}</a></td>
+								<td><button onclick="window.location.href='{{ url('/branches/'.$row->url) }}'" style="background-color: red; border-radius: 30px; border: 0; color: white; cursor: pointer; padding: 0 40px;">Room Rates</button></td>
 								<td><i class="fas fa-walking">&nbsp;&nbsp;&nbsp;<i class="fas fa-car"></i></td>
 								
 								<td><a href="tel:{{$row->phone}}" style="text-decoration:none;">
@@ -63,8 +69,13 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th width="40%">Branch</th>
+								<!-- <th width="40%">Branch</th>
 								<th width="25%"></th>
+								<th width="30%">Telephone No.</th>
+								<th width="5%"></th> -->
+								<th width="30%">Branch</th>
+								<th  width="25%"></th>
+								<th  width="10%"></th>
 								<th width="30%">Telephone No.</th>
 								<th width="5%"></th>
 							</tr>
@@ -74,6 +85,7 @@
 							@if($row1->region_id != 16)
 							<tr>
 								<td><a href="{{ url('/branches/'.$row1->url) }}">{{ $row1->name }}</a></td>
+								<td><button onclick="window.location.href='{{ url('/branches/'.$row1->url) }}'" style="background-color: red; border-radius: 30px; border: 0; color: white; cursor: pointer; padding: 0 40px;">Room Rates</button></td>
 								<td><i class="fas fa-walking">&nbsp;&nbsp;&nbsp;<i class="fas fa-car"></i></td>
 								<td><a href="tel:{{$row->phone}}" style="text-decoration:none;">
                         			    {{ $row1->phone }}

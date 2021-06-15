@@ -99,6 +99,28 @@ class HomeController extends Controller {
         return view('website.body.about_us', $this->params);
     }
 
+    public function virtual_tour($pages = null){
+        $p = new Page;
+        $au = new About_us;
+
+        $p->setID(\Request::segment(1));
+        $page = $p->_getpostedpage();
+
+        $au->setID($pages);
+        $about = $au->_getpostedabout();
+
+        $this->load_header_files();
+        
+        $this->params['title'] = 'Virtual Tour';
+        $this->params['description'] = 'description';
+        $this->params['keywords'] = 'keywords';
+        $this->params['pages'] = $pages;
+        $this->params['page'] = $page;
+        $this->params['about'] = !empty($pages) ? $about : $au->_getpostedabouts();
+
+        return view('website.body.virtual_tour', $this->params);
+    }
+
     public function branches($pages = null){
         $p = new Page;
         $b = new Branches;

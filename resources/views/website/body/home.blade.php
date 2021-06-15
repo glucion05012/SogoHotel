@@ -19,60 +19,60 @@
 		</div>
 	</div>
 
-	<section class="home-about-us bg-gradient-red text-center scrolly">
-		<div class="container">
-			<h4 class="subtitle text-yellow">WELCOME TO</h4>
-			<h1 class="title font-arial">HOTEL SOGO</h1>
-			<h5 class="body">for inquiry call</h5>
+	<section class="home-about-us bg-gradient-white text-center scrolly" >
+		<div class="container" style="background-image: url('{{ asset('images/bg11.jpg') }}'); padding-top: 2rem">
+			<h4 class="subtitle text-yellow" style="color:black !important; ">WELCOME TO</h4>
+			<h1 class="title font-arial" style="color:red !important">HOTEL SOGO</h1>
+			<h5 class="body" style="color:black !important">for inquiry call</h5>
 			<a href="tel:{{$settings->phone}}" style="text-decoration:none;">
-			    <h2 class="number font-arial mb-3"> {{ $settings->phone }}</h2>
+			    <h2 class="number font-arial mb-3" style="color:red !important"> {{ $settings->phone }}</h2>
 			</a>
-			<a href="#" class="btn btn-warning mb-3">RESERVE NOW</a>
-			<h2 class="number font-arial mb-4">SO CLEAN... SO GOOD!</h2>
+			<!-- <a href="#" class="btn btn-warning mb-3">RESERVE NOW</a> -->
+			<h2 class="number font-arial mb-4" style="color:black !important">SO CLEAN... SO GOOD!</h2>
 			<div class="row probootstrap-animate">
 				<div class="col-md-3 mb-md-0 mb-3">
 					<div class="rounded-circle mx-auto">
 						<a href="{{ url('/branches') }}">
-							<img src="{{ asset('images/icons/branch.svg') }}" width="100%">
+							<img src="{{ asset('images/icons/branch.png') }}" width="100%">
 						</a>
 					</div>
 					<div class="panel mx-auto">
-						<h4 class="panel-title mt-4">OUR BRANCHES</h4>
-						<p class="panel-body m-0">Explore and see where you can stay</p>
+						<h4 class="panel-title mt-4" style="color:black !important">OUR BRANCHES</h4>
+						<p class="panel-body m-0" style="color:black !important">Explore and see where you can stay</p>
 					</div>
 				</div>
 				<div class="col-md-3 mb-md-0 mb-3">
 					<div class="rounded-circle mx-auto">
 						<a href="https://foodandbeverages.hotelsogo.com/">
 						<!-- <a href="{{ url('/food-beverages/healthy-breakfast') }}"> -->
-							<img src="{{ asset('images/icons/food.svg') }}">
+							<img src="{{ asset('images/icons/food.png') }}">
 						</a>
 					</div>
 					<div class="panel mx-auto">
-						<h4 class="panel-title mt-4">FOOD & BEVERAGES</h4>
-						<p class="panel-body m-0">Choose and dine in our mouthwatering dishes.</p>
+						<h4 class="panel-title mt-4" style="color:black !important">FOOD & BEVERAGES</h4>
+						<p class="panel-body m-0" style="color:black !important">Choose and dine in our mouthwatering dishes.</p>
 					</div>
 				</div>
 				<div class="col-md-3 mb-md-0 mb-3">
 					<div class="rounded-circle mx-auto">
 						<a href="{{ url('/photos/executive-garage') }}">
-							<img src="{{ asset('images/icons/gallery.svg') }}">
+							<img style="width:120px; height:120px;" src="{{ asset('images/icons/gallery.png') }}">
 						</a>
 					</div>
 					<div class="panel mx-auto">
-						<h4 class="panel-title mt-4">PHOTOS</h4>
-						<p class="panel-body m-0">Discover what can Hotel Sogo offer.</p>
+						<h4 class="panel-title mt-4" style="color:black !important">PHOTOS</h4>
+						<p class="panel-body m-0" style="color:black !important">Discover what can Hotel Sogo offer.</p>
 					</div>
 				</div>
 				<div class="col-md-3 mb-md-0 mb-3">
 					<div class="rounded-circle mx-auto">
 						<a href="{{ url('/inquiry-comments') }}">
-							<img src="{{ asset('images/icons/comment.svg') }}">
+							<img style="width:120px; height:120px;" src="{{ asset('images/icons/comment.png') }}">
 						</a>
 					</div>
 					<div class="panel mx-auto">
-						<h4 class="panel-title mt-4">COMMENTS OR SUGGESTIONS</h4>
-						<p class="panel-body m-0">What do you think about us? Message us here</p>
+						<h4 class="panel-title mt-4" style="color:black !important">COMMENTS OR SUGGESTIONS</h4>
+						<p class="panel-body m-0" style="color:black !important; margin-bottom: 2rem !important">What do you think about us? Message us here</p>
 					</div>
 				</div>
 			</div>
@@ -93,6 +93,10 @@
 		</div>
 	</section>
 
+	<a href="{{ url('/virtual-tour') }}">
+			<img src="{{url('/images/banner/virtualtour.jpg')}}" width="100%" alt="{{ $page->alt }}">
+		</a>
+
 	<section class="facebook bg-default p-0">
 		<div class="row no-gutters">
 			<div class="col-lg-4 col-md-6 probootstrap-animate" data-animate-effect="fadeInLeft">
@@ -107,12 +111,13 @@
 					{{-- <h3 class="title">{{ $promo->title }}</h3> --}}
 				</a>
 			</div>
-			<div class="col-lg-4 text-center text-lg-left probootstrap-animate" data-animate-effect="fadeInRight">
-				<div class="fb-page">
-					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHotelSogoOfficialPage%2F&tabs=timeline&width=500&height=550&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="550" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			<div class="col-lg-4 text-center text-lg-left probootstrap-animate" style="height:550px" data-animate-effect="fadeInRight">
+				<div class="fb-page" style="height: 100%">
+					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHotelSogoOfficialPage%2F&tabs=timeline&width=500&height=550&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="550" style="border:none;overflow:hidden; height:100%" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 				</div>
 			</div>
 		</div>
+	</div>
 	</section>
 
 @endsection
